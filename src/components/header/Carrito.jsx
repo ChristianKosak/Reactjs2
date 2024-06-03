@@ -1,11 +1,13 @@
 import React from 'react'
+import { CartCheck } from 'react-bootstrap-icons'
 
-const Carrito = () => {
+export const Carrito = (props) => {
+
+
+
   return (
-    <div classname="carrito">
-            🛒 1
-        </div>
+    <div className="carrito">
+        <CartCheck color="red" /> {props.numerito}
+    </div>
   )
 }
-
-export default Carrito

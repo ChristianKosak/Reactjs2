@@ -22,7 +22,7 @@
 }
 
 .nav-link {
-    color :blue;
+    color : white;
     text-decoration: none;
 }
 
@@ -30,4 +30,30 @@
     min-height: 30vh;
     display: grid;
     place-items: center;
+}
+
+.item-list-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.productos-grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.producto {
+    background-color: gray;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+body {
+    background-color: black;
+    color: white; 
+}
+
+footer {
+    margin-top: 10rem;
 }

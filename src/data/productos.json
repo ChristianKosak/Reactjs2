@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "nombre": "iPhone 13",
+        "precio": 799.99,
+        "imagen": "https://laboutiquedeltelefono.it/wp-content/uploads/iphone-13-midnight-200x200.webp",
+        "descripcion": "El iPhone 13 cuenta con una pantalla Super Retina XDR y un chip A15 Bionic.",
+        "categoria": "Smartphones"
+    },
+    {
+        "id": 2,
+        "nombre": "Samsung Galaxy S21",
+        "precio": 699.99,
+        "imagen": "https://www.esseshop.it/getimage/products/EsseShop.it-Samsung-SM-G991BZVDEUE_2.jpg",
+        "descripcion": "El Samsung Galaxy S21 tiene una cámara de alta resolución y una pantalla Dynamic AMOLED.",
+        "categoria": "Smartphones"
+    },
+    {
+        "id": 3,
+        "nombre": "Google Pixel 6",
+        "precio": 599.99,
+        "imagen": "https://www.dimprice.co.uk/image/cache/catalog/Xiaomi/google-pixel-6-black-1-200x200.png",
+        "descripcion": "El Google Pixel 6 ofrece una cámara avanzada y un rendimiento rápido con el chip Google Tensor.",
+        "categoria": "Smartphones"
+    },
+    {
+        "id": 4,
+        "nombre": "OnePlus 9",
+        "precio": 729.99,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXqUPxKdJZMVD89830SJGSi38W2dR9iCNjMw&s",
+        "descripcion": "El OnePlus 9 viene con una pantalla Fluid AMOLED y carga rápida Warp Charge 65T.",
+        "categoria": "Smartphones"
+    },
+    {
+        "id": 5,
+        "nombre": "Xiaomi Mi 11",
+        "precio": 649.99,
+        "imagen": "https://www.manual.ar/thumbs/products/s/1322623-xiaomi-mi-11.jpg",
+        "descripcion": "El Xiaomi Mi 11 tiene una cámara de 108 MP y una pantalla AMOLED de 120 Hz.",
+        "categoria": "Smartphones"
+    },
+    {
+        "id": 6,
+        "nombre": "Sony Xperia 5 II",
+        "precio": 899.99,
+        "imagen": "https://images.mobilefun.co.uk/graphics/200pixelp/82932.jpg",
+        "descripcion": "El Sony Xperia 5 II ofrece una pantalla OLED 4K y capacidades de fotografía avanzada.",
+        "categoria": "Smartphones"
+    },
+    {
+        "id": 7,
+        "nombre": "Huawei P40 Pro",
+        "precio": 799.99,
+        "imagen": "https://img.nieuwemobiel.nl/huawei-p40-pro-5e7cfa419ceb4.jpg",
+        "descripcion": "El Huawei P40 Pro tiene una cámara cuádruple Leica y una pantalla de 90 Hz.",
+        "categoria": "Smartphones"
+    },
+    {
+        "id": 8,
+        "nombre": "Oppo Find X3 Pro",
+        "precio": 1099.99,
+        "imagen": "https://img.nieuwemobiel.nl/oppo-find-x3-pro-6051da0e0f3a9.jpg",
+        "descripcion": "El Oppo Find X3 Pro ofrece una pantalla AMOLED y una cámara microscópica.",
+        "categoria": "Smartphones"
+    },
+    {
+        "id": 9,
+        "nombre": "LG Velvet",
+        "precio": 599.99,
+        "imagen": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/200x200/9df78eab33525d08d6e5fb8d27136e95/7/9/79728486_6016453815.jpg.jpg",
+        "descripcion": "El LG Velvet tiene una pantalla OLED y soporte para 5G.",
+        "categoria": "Smartphones"
+    },
+    {
+        "id": 10,
+        "nombre": "Nokia 8.3 5G",
+        "precio": 499.99,
+        "imagen": "https://m.media-amazon.com/images/I/51NZw+BzpYL._SS200_.jpg",
+        "descripcion": "El Nokia 8.3 5G es compatible con redes 5G y tiene una cámara cuádruple PureView.",
+        "categoria": "Smartphones"
+    },
+    {
+        "id": 11,
+        "nombre": "MacBook Air M1",
+        "precio": 999.99,
+        "imagen": "https://www.intelaf.com/images/productos/gran/AP-MBAR-13M18SI.jpg",
+        "descripcion": "El MacBook Air con el chip M1 ofrece un rendimiento increíble y una duración de batería de hasta 18 horas.",
+        "categoria": "Notebooks"
+    },
+    {
+        "id": 12,
+        "nombre": "Dell XPS 13",
+        "precio": 1099.99,
+        "imagen": "https://www.esseshop.it/getimage/products/EsseShop.it-Dell-T1G5V_5.jpg",
+        "descripcion": "El Dell XPS 13 cuenta con una pantalla InfinityEdge y procesadores Intel de 11ª generación.",
+        "categoria": "Notebooks"
+    },
+    {
+        "id": 13,
+        "nombre": "HP Spectre x360",
+        "precio": 1199.99,
+        "imagen": "https://webobjects2.cdw.com/is/image/CDW/7541032?$product_search_result$",
+        "descripcion": "El HP Spectre x360 es un portátil convertible con pantalla táctil y un diseño elegante.",
+        "categoria": "Notebooks"
+    },
+    {
+        "id": 14,
+        "nombre": "Lenovo ThinkPad X1 Carbon",
+        "precio": 1299.99,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVLmbAFntGgVtR79RNKW4OWdwo-81e8S5Y3w&s",
+        "descripcion": "El Lenovo ThinkPad X1 Carbon es un portátil ultraligero con un rendimiento excepcional.",
+        "categoria": "Notebooks"
+    },
+    {
+        "id": 15,
+        "nombre": "Asus ZenBook 14",
+        "precio": 899.99,
+        "imagen": "https://dlcdnwebimgs.asus.com/gain/fd451929-089f-4954-86f4-5d1aeb73a3e6//w200",
+        "descripcion": "El Asus ZenBook 14 tiene una pantalla NanoEdge y un teclado ergonómico.",
+        "categoria": "Notebooks"
+    },
+    {
+        "id": 16,
+        "nombre": "Acer Swift 3",
+        "precio": 699.99,
+        "imagen": "https://crowncrystaltech.com/wp-content/uploads/2023/05/Acer-Swift-3-SF314-42-14-inch-AMD-Ryzen-7-4700U-e1653866667199.jpg",
+        "descripcion": "El Acer Swift 3 es un portátil ligero con batería de larga duración y procesadores AMD Ryzen.",
+        "categoria": "Notebooks"
+    },
+    {
+        "id": 17,
+        "nombre": "Microsoft Surface Laptop 4",
+        "precio": 1299.99,
+        "imagen": "https://www.esseshop.it/getimage/products/EsseShop.it-Microsoft-5BT-00010_S_7.jpg",
+        "descripcion": "El Microsoft Surface Laptop 4 ofrece un rendimiento rápido y una pantalla táctil PixelSense.",
+        "categoria": "Notebooks"
+    },
+    {
+        "id": 18,
+        "nombre": "Razer Blade 15",
+        "precio": 1599.99,
+        "imagen": "https://cdn.mall.adeptmind.ai/https%3A%2F%2Fmedia.gamestop.com%2Fi%2Fgamestop%2F11172451%2FRazer-Blade-15-Advanced-15.6-In-Gaming-Laptop-Intel-Core-i7-11800H-GeForce-RTX-3080--32GB-DDR4-1TB-SSD-Black-RZ09-0409KED3-R3U1_small.webp",
+        "descripcion": "El Razer Blade 15 es un portátil gaming con gráficos NVIDIA GeForce RTX y pantalla de 144Hz.",
+        "categoria": "Notebooks"
+    },
+    {
+        "id": 19,
+        "nombre": "Apple MacBook Pro 16",
+        "precio": 2399.99,
+        "imagen": "https://www.itworld.com.my/image/cache/catalog/Images/Notebook/NBKAPPLMVVL2ZP_T1-200x200.jpg",
+        "descripcion": "El MacBook Pro de 16 pulgadas ofrece un rendimiento profesional con el chip M1 Pro.",
+        "categoria": "Notebooks"
+    },
+    {
+        "id": 20,
+        "nombre": "Samsung Galaxy Book Pro",
+        "precio": 999.99,
+        "imagen": "https://media.very.co.uk/i/very/VYEFZ_SQ1_0000000005_GREY_SLf/samsung-galaxy-book4-pro-360-2024-touchscreen-laptop-16in-wqxganbspintel-core-ultra-7-16gb-1tb-moonstone-grey.jpg?$200x200_socialshare$",
+        "descripcion": "El Samsung Galaxy Book Pro es un portátil ultraligero con pantalla AMOLED y conectividad 5G.",
+        "categoria": "Notebooks"
+    },
+    {
+        "id": 21,
+        "nombre": "PlayStation 5",
+        "precio": 499.99,
+        "imagen": "https://www.debate.com.mx/__export/1697816400625/sites/debate/img/2023/10/19/ps5-slim.jpg_136940629.jpg",
+        "descripcion": "La PlayStation 5 ofrece gráficos de próxima generación y tiempos de carga ultra rápidos.",
+        "categoria": "Consolas"
+    },
+    {
+        "id": 22,
+        "nombre": "Xbox Series X",
+        "precio": 499.99,
+        "imagen": "https://mediacore.kyuubi.it/aedgaming/media/img/2022/11/23/492527-thumbnail-xbox-series-x-1tb-it-garanzia-italia-24-mesi-spedizione-immediata.jpg",
+        "descripcion": "La Xbox Series X es la consola más rápida y potente de Microsoft con gráficos en 4K.",
+        "categoria": "Consolas"
+    },
+    {
+        "id": 23,
+        "nombre": "Nintendo Switch",
+        "precio": 299.99,
+        "imagen": "https://todoaplazo.com/images/thumbs_200x200/dbcf935b-e32f-46da-a819-33a619dbcd34-NINTENDO-9.png",
+        "descripcion": "La Nintendo Switch es una consola híbrida que se puede usar tanto en modo portátil como de sobremesa.",
+        "categoria": "Consolas"
+    },
+    {
+        "id": 24,
+        "nombre": "PlayStation 4",
+        "precio": 299.99,
+        "imagen": "https://images-na.ssl-images-amazon.com/images/I/61+SrxoM9lL._AC_UL200_SR200,200_.jpg",
+        "descripcion": "La PlayStation 4 sigue siendo una excelente consola para juegos con una gran biblioteca de títulos.",
+        "categoria": "Consolas"
+    },
+    {
+        "id": 25,
+        "nombre": "Xbox Series S",
+        "precio": 299.99,
+        "imagen": "https://www.debate.com.mx/__export/1706123642552/sites/debate/img/2024/01/24/noticias_de_animales_-_2024-01-24t121348_028.jpg_136940629.jpg",
+        "descripcion": "La Xbox Series S ofrece juegos de próxima generación a un precio más asequible.",
+        "categoria": "Consolas"
+    },
+    {
+        "id": 26,
+        "nombre": "Nintendo Switch Lite",
+        "precio": 199.99,
+        "imagen": "https://media.gamestop.com/i/gamestop/11095774/Nintendo-Switch-Lite-Console-Gray?$thumb$",
+        "descripcion": "La Nintendo Switch Lite es una versión más compacta y portátil de la Switch.",
+        "categoria": "Consolas"
+    },
+    {
+        "id": 27,
+        "nombre": "PlayStation 5 Digital Edition",
+        "precio": 399.99,
+        "imagen": "https://cdnprod.mafretailproxy.com/sys-master-root/ha4/h6f/33434727317534/1891656_main.jpg_200Wx200H",
+        "descripcion": "La PlayStation 5 Digital Edition no tiene unidad de disco y ofrece los mismos gráficos de próxima generación.",
+        "categoria": "Consolas"
+    },
+    {
+        "id": 28,
+        "nombre": "Xbox One X",
+        "precio": 499.99,
+        "imagen": "https://assets.xboxservices.com/assets/18/30/1830806b-d41d-40ce-a846-792df7d14e1d.jpg?n=Xbox-Series-X_Sharing_200x200_02.jpg",
+        "descripcion": "La Xbox One X es una consola potente con capacidad para 4K y HDR.",
+        "categoria": "Consolas"
+    },
+    {
+        "id": 29,
+        "nombre": "PlayStation VR",
+        "precio": 299.99,
+        "imagen": "https://media.gamestop.com/i/gamestop/10160381/Sony-PlayStation-VR-HDR-Compatible-Headset?$thumb$",
+        "descripcion": "El PlayStation VR es un sistema de realidad virtual para la PlayStation 4 y 5.",
+        "categoria": "Consolas"
+    },
+    {
+        "id": 30,
+        "nombre": "Nintendo 3DS XL",
+        "precio": 199.99,
+        "imagen": "https://imgsrv.toppreise.ch/img/469317/200/1-6968e3",
+        "descripcion": "La Nintendo 3DS XL es una consola portátil con pantalla 3D sin gafas.",
+        "categoria": "Consolas"
+    }
+]
