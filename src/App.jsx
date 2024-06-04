@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import  Header  from "./components/header/Header";
 import NotFound from "./components/NotFound";
 import { ItemListContainer } from "./components/ItemListContainer";
+import productos from './data/productos.json'
 import ItemDetailContainer from "./components/ItemDetailConteiner";
 import Footer from "./components/Footer";
 
@@ -15,10 +16,10 @@ function App() {
     <BrowserRouter>
       <Header numerito={numerito} setNumerito={setNumerito} />
       <Routes>
-        <Route path="/" element={<ItemListContainer />}/>
-        <Route path="/category/:categoryId" element={<ItemListContainer />}/>
-        <Route path="/item/:itemId" element={<ItemDetailContainer />}/>
-        <Route path="/*" element={<NotFound />}/>
+        <Route exact path="/" element={<ItemListContainer />}/>
+        <Route exact path="/category/:categoryId" element={<ItemListContainer />}/>
+        <Route exact path="/item/:itemId" element={<ItemDetailContainer />}/>
+        <Route exact path="/*" element={<NotFound />}/>
       </Routes>
       <Footer />
     </BrowserRouter>

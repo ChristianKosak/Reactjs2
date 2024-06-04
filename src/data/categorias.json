@@ -1,14 +1,14 @@
 [
     {
-        "id": "Smartphones",
+        "id": "smartphones",
         "nombre": "Smartphones"
     },
     {
-        "id": "Notebooks",
+        "id": "notebooks",
         "nombre": "Notebooks"
     },
     {
-        "id": "Consolas",
+        "id": "consolas",
         "nombre": "Consolas"
     }
 ]
