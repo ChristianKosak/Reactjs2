@@ -1,16 +1,23 @@
-import { NavBar } from './NavBar'
+import React from 'react';
+import { NavBar } from './NavBar';
+import { CartWidget } from './CartWidget';
+import { Link } from 'react-router-dom';
 
-const header = () => {
+ export const Header = () => {
   return (
-    <>
+    
     <header className='header'>
-        <h1>Shop</h1>
+        
+        <h1>💻TecnoEuropa💻</h1>
         <NavBar />
+        <CartWidget />
+
+        </header>
       
-    </header>
+    
       
-    </>
+    
   )
 }
 
-export default header
+export default Header;

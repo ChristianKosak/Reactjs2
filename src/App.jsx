@@ -1,28 +1,37 @@
 import "./css/main.css";
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import  Header  from "./components/header/Header";
+import { Header } from "./components/header/Header.jsx";
 import NotFound from "./components/NotFound";
 import { ItemListContainer } from "./components/ItemListContainer";
-import productos from './data/productos.json'
-import ItemDetailContainer from "./components/ItemDetailConteiner";
 import Footer from "./components/Footer";
+import { ItemDetailContainer } from "./components/ItemDetailConteiner.jsx";
+import Carrito from "./components/Carrito";
+import { CartProvider } from "./context/CartContext";
+import  Suma  from "./components/Suma.jsx";
+import  { Checkout } from "./components/Checkout.jsx";
+import { CargarProductos } from "./components/CargarProductos";
+import Swal from 'sweetalert2';
+import { useForm } from "react-hook-form";
 
 function App() {
-
-  const [numerito, setNumerito] = useState(1);
-
   return (
-    <BrowserRouter>
-      <Header numerito={numerito} setNumerito={setNumerito} />
-      <Routes>
-        <Route exact path="/" element={<ItemListContainer />}/>
-        <Route exact path="/category/:categoryId" element={<ItemListContainer />}/>
-        <Route exact path="/item/:itemId" element={<ItemDetailContainer />}/>
-        <Route exact path="/*" element={<NotFound />}/>
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <CartProvider>
+      <BrowserRouter>
+        <Header/>
+        <Routes>
+          <Route path="/" element={<ItemListContainer/>}/>
+          <Route path="/category/:categoryId" element={<ItemListContainer/>}/>
+          <Route path="/item/:itemId" element={<ItemDetailContainer/>}/>
+          <Route path="/carrito" element={<Carrito/>}/>
+          <Route path="/suma" element={<Suma/>}/>
+          <Route path="/finalizar-compra" element={<Checkout/>}/>
+          <Route path="/cargar-productos" element={<CargarProductos/>}/>
+          <Route path="/*" element={<NotFound/>}/>
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </CartProvider>
   )
 }
 

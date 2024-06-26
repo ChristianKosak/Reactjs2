@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -57,3 +59,121 @@ body {
 footer {
     margin-top: 10rem;
 }
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.producto2 {
+
+    display: grid;
+    background-color: gray;
+    border-radius: .5rem;
+    padding: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.carrito {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: black;
+  }
+  
+  .producto-carrito {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .producto-carrito h2 {
+    margin: 0;
+  }
+  
+  .producto-carrito button {
+    background-color: black;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .total-container {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .vaciar-btn {
+    background-color: #dc3545;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .finalizar-btn {
+    background-color: #28a745;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .carrito-vacio {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .comprar-btn {
+    background-color: #007bff;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la ventana */
+    background-color: black; /* Color de fondo opcional */
+  }
+  
+  /* Estilos para el formulario */
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: flex-start;
+    padding: 2rem; /* Espaciado interno */
+    background-color: black; /* Fondo blanco */
+    border-radius: .5rem; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  .formulario input {
+    padding: .5rem;
+    width: 18rem;
+    border-radius: .5rem;
+    border: 2px solid black;
+  }
+  
+  .formulario input:focus {
+    outline: 0;
+    border: 2px solid var(--clr-main);
+    outline: 2px solid var(--clr-main);
+  }
